@@ -15,8 +15,8 @@
 # in the templates via {{ site.myvariable }}.
 title: Persevere JS DOM
 description: Learning the DOM using vanilla JavaScript
-baseurl: "/just-the-docs" # the subpath of your site, e.g. /blog
-url: "#" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://127.0.0.1:4000/just-the-docs/" # the base hostname & protocol for your site, e.g. http://example.com
 
 permalink: pretty
 exclude: ["node_modules/", "*.gemspec", "*.gem", "Gemfile", "Gemfile.lock", "package.json", "package-lock.json",  "script/", "LICENSE.txt", "lib/", "bin/", "README.md", "Rakefile"
@@ -27,7 +27,7 @@ exclude: ["node_modules/", "*.gemspec", "*.gem", "Gemfile", "Gemfile.lock", "pac
 # By default, the pages in /docs/tests are excluded when the ste is built.
 # To include them, comment-out the relevant line above.
 # Uncommenting the following line doesn't work - see https://github.com/jekyll/jekyll/issues/4791
-# include: ["docs/tests/"]
+include: ["docs/tests/"]
 
 # Set a path/url to a logo that will be displayed instead of the title
 #logo: "/assets/images/just-the-docs.png"
