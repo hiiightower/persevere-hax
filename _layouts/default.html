@@ -6,197 +6,270 @@ layout: table_wrappers
 
 <html lang="{{ site.lang | default: 'en-US' }}">
 {% include head.html %}
+
 <body>
   <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
     <symbol id="svg-link" viewBox="0 0 24 24">
       <title>Link</title>
-      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-link">
-        <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path>
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+        class="feather feather-link">
+        <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path>
+        <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path>
       </svg>
     </symbol>
     <symbol id="svg-search" viewBox="0 0 24 24">
       <title>Search</title>
-      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-search">
-        <circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+        class="feather feather-search">
+        <circle cx="11" cy="11" r="8"></circle>
+        <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
       </svg>
     </symbol>
     <symbol id="svg-menu" viewBox="0 0 24 24">
       <title>Menu</title>
-      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-menu">
-        <line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line>
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+        class="feather feather-menu">
+        <line x1="3" y1="12" x2="21" y2="12"></line>
+        <line x1="3" y1="6" x2="21" y2="6"></line>
+        <line x1="3" y1="18" x2="21" y2="18"></line>
       </svg>
     </symbol>
     <symbol id="svg-arrow-right" viewBox="0 0 24 24">
       <title>Expand</title>
-      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right">
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+        class="feather feather-chevron-right">
         <polyline points="9 18 15 12 9 6"></polyline>
       </svg>
     </symbol>
     <symbol id="svg-doc" viewBox="0 0 24 24">
       <title>Document</title>
-      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-file">
-        <path d="M13 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9z"></path><polyline points="13 2 13 9 20 9"></polyline>
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+        class="feather feather-file">
+        <path d="M13 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9z"></path>
+        <polyline points="13 2 13 9 20 9"></polyline>
       </svg>
     </symbol>
   </svg>
 
   <div class="side-bar">
     <div class="site-header">
+
       <a href="{{ '/' | absolute_url }}" class="site-title lh-tight">{% include title.html %}</a>
       <a href="#" id="menu-button" class="site-button">
-        <svg viewBox="0 0 24 24" class="icon"><use xlink:href="#svg-menu"></use></svg>
-      </a>
+        <svg width="205px" height="25px" viewBox="0 0 205 25" version="1.1" xmlns="http://www.w3.org/2000/svg"
+          xmlns:xlink="http://www.w3.org/1999/xlink">
+          <g id="Welcome" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+            <g id="PersevereTN" transform="translate(-81.000000, -28.000000)" fill-rule="nonzero">
+              <g id="Persevere-logo-copy_Persevere_CMYK" transform="translate(81.000000, 28.000000)">
+                <g id="Group" transform="translate(0.000000, 2.451613)" fill="#485768">
+                  <path
+                    d="M0,0.290322581 L8.95505971,0.290322581 C14.1734758,0.290322581 17.3302954,3.38709677 17.3302954,7.87096774 L17.3302954,7.93548387 C17.3302954,13 13.4003771,15.6451613 8.47187304,15.6451613 L4.83186675,15.6451613 L4.83186675,22.2258065 L0,22.2258065 L0,0.290322581 Z M8.63293526,11.3548387 C11.0488686,11.3548387 12.4340038,9.90322581 12.4340038,8.03225806 L12.4340038,7.96774194 C12.4340038,5.80645161 10.9200189,4.64516129 8.53629793,4.64516129 L4.83186675,4.64516129 L4.83186675,11.3548387 L8.63293526,11.3548387 Z"
+                    id="Shape"></path>
+                  <path
+                    d="M46.0637964,0.290322581 L56.0818668,0.290322581 C58.852137,0.290322581 61.0103708,1.06451613 62.4599309,2.51612903 C63.6840038,3.74193548 64.3282527,5.4516129 64.3282527,7.51612903 L64.3282527,7.58064516 C64.3282527,11.1290323 62.4277184,13.3548387 59.6252357,14.3870968 L64.9725016,22.2258065 L59.3353237,22.2258065 L54.6323067,15.1935484 L50.8312382,15.1935484 L50.8312382,22.2258065 L45.9993715,22.2258065 L45.9993715,0.290322581 L46.0637964,0.290322581 Z M55.7597423,10.9354839 C58.1112508,10.9354839 59.4641735,9.67741935 59.4641735,7.83870968 L59.4641735,7.77419355 C59.4641735,5.70967742 58.0146135,4.64516129 55.663105,4.64516129 L50.8634507,4.64516129 L50.8634507,10.9354839 L55.7597423,10.9354839 Z"
+                    id="Shape"></path>
+                  <path
+                    d="M69.7721559,19.0322581 L72.606851,15.6129032 C74.5718102,17.2580645 76.6334067,18.2903226 79.1459774,18.2903226 C81.1109365,18.2903226 82.302797,17.516129 82.302797,16.2258065 L82.302797,16.1612903 C82.302797,14.9354839 81.5619107,14.3225806 77.889692,13.3870968 C73.4765871,12.2580645 70.6418919,11.0322581 70.6418919,6.67741935 L70.6418919,6.61290323 C70.6418919,2.64516129 73.8309239,0 78.3084538,0 C81.4974859,0 84.2355437,1 86.4582024,2.77419355 L83.9456317,6.41935484 C82.012885,5.06451613 80.1123507,4.25806452 78.2440289,4.25806452 C76.4079195,4.25806452 75.4415462,5.09677419 75.4415462,6.16129032 L75.4415462,6.22580645 C75.4415462,7.67741935 76.3757071,8.12903226 80.1767756,9.09677419 C84.622093,10.2580645 87.1346637,11.8387097 87.1346637,15.6774194 L87.1346637,15.7419355 C87.1346637,20.0967742 83.8167819,22.5483871 79.0815525,22.5483871 C75.7314582,22.5483871 72.3813639,21.3870968 69.7721559,19.0322581 Z"
+                    id="Path"></path>
+                  <polygon id="Path"
+                    points="114.579667 0.290322581 119.89472 0.290322581 125.628536 15.7419355 131.362351 0.290322581 136.548554 0.290322581 127.690132 22.3870968 123.438089 22.3870968">
+                  </polygon>
+                  <path
+                    d="M163.445946,0.290322581 L173.431804,0.290322581 C176.202074,0.290322581 178.360308,1.06451613 179.809868,2.51612903 C181.033941,3.74193548 181.67819,5.4516129 181.67819,7.51612903 L181.67819,7.58064516 C181.67819,11.1290323 179.777656,13.3548387 176.975173,14.3870968 L182.354651,22.2258065 L176.717473,22.2258065 L172.014456,15.1935484 L168.213388,15.1935484 L168.213388,22.2258065 L163.381521,22.2258065 L163.381521,0.290322581 L163.445946,0.290322581 Z M173.141892,10.9354839 C175.4934,10.9354839 176.846323,9.67741935 176.846323,7.83870968 L176.846323,7.77419355 C176.846323,5.70967742 175.396763,4.64516129 173.045255,4.64516129 L168.2456,4.64516129 L168.2456,10.9354839 L173.141892,10.9354839 Z"
+                    id="Shape"></path>
+                </g>
+                <polygon id="Path" fill="#60C7CD"
+                  points="29.5065996 4.38709677 40.2011314 10.0967742 40.2011314 5.70967742 29.5065996 0"></polygon>
+                <polygon id="Path" fill="#60C7CD"
+                  points="20.3904777 18.9354839 31.0850094 24.6774194 31.0850094 20.2903226 20.3904777 14.5483871">
+                </polygon>
+                <polygon id="Path" fill="#60C7CD"
+                  points="24.8357951 11.6774194 35.5303268 17.3870968 35.5303268 13 24.8357951 7.29032258"></polygon>
+                <rect id="Rectangle" fill="#485768" x="93.1906034" y="2.74193548" width="16.6860465"
+                  height="4.38709677"></rect>
+                <rect id="Rectangle" fill="#485768" x="93.1906034" y="20.2903226" width="16.6860465"
+                  height="4.38709677"></rect>
+                <rect id="Rectangle" fill="#485768" x="93.1906034" y="11.516129" width="16.6860465" height="4.38709677">
+                </rect>
+                <rect id="Rectangle" fill="#485768" x="140.736172" y="2.74193548" width="16.6860465"
+                  height="4.38709677"></rect>
+                <rect id="Rectangle" fill="#485768" x="140.736172" y="20.2903226" width="16.6860465"
+                  height="4.38709677"></rect>
+                <rect id="Rectangle" fill="#485768" x="140.736172" y="11.516129" width="16.6860465" height="4.38709677">
+                </rect>
+                <rect id="Rectangle" fill="#485768" x="188.313953" y="2.74193548" width="16.6860465"
+                  height="4.38709677"></rect>
+                <rect id="Rectangle" fill="#485768" x="188.313953" y="20.2903226" width="16.6860465"
+                  height="4.38709677"></rect>
+                <rect id="Rectangle" fill="#485768" x="188.313953" y="11.516129" width="16.6860465" height="4.38709677">
+                </rect>
+              </g>
+            </g>
+          </g>
+        </svg> </a>
     </div>
     <nav role="navigation" aria-label="Main" id="site-nav" class="site-nav">
       {% if site.just_the_docs.collections %}
-        {% assign collections_size = site.just_the_docs.collections | size %}
-        {% for collection_entry in site.just_the_docs.collections %}
-          {% assign collection_key = collection_entry[0] %}
-          {% assign collection_value = collection_entry[1] %}
-          {% assign collection = site[collection_key] %}
-          {% if collection_value.nav_exclude != true %}
-            {% if collections_size > 1 %}
-              <div class="nav-category">{{ collection_value.name }}</div>
-            {% endif %}
-            {% include nav.html pages=collection %}
-          {% endif %}
-        {% endfor %}
+      {% assign collections_size = site.just_the_docs.collections | size %}
+      {% for collection_entry in site.just_the_docs.collections %}
+      {% assign collection_key = collection_entry[0] %}
+      {% assign collection_value = collection_entry[1] %}
+      {% assign collection = site[collection_key] %}
+      {% if collection_value.nav_exclude != true %}
+      {% if collections_size > 1 %}
+      <div class="nav-category">{{ collection_value.name }}</div>
+      {% endif %}
+      {% include nav.html pages=collection %}
+      {% endif %}
+      {% endfor %}
       {% else %}
-        {% include nav.html pages=site.html_pages %}
+      {% include nav.html pages=site.html_pages %}
       {% endif %}
     </nav>
     <footer class="site-footer">
-      This site uses <a href="https://github.com/pmarsceill/just-the-docs">Just the Docs</a>, a documentation theme for Jekyll.
+      This site uses <a href="https://github.com/pmarsceill/just-the-docs">Just the Docs</a>, a documentation theme for
+      Jekyll.
     </footer>
   </div>
   <div class="main" id="top">
     <div id="main-header" class="main-header">
       {% if site.search_enabled != false %}
-        <div class="search">
-          <div class="search-input-wrap">
-            <input type="text" id="search-input" class="search-input" tabindex="0" placeholder="Search {{ site.title }}" aria-label="Search {{ site.title }}" autocomplete="off">
-            <label for="search-input" class="search-label"><svg viewBox="0 0 24 24" class="search-icon"><use xlink:href="#svg-search"></use></svg></label>
-          </div>
-          <div id="search-results" class="search-results"></div>
+      <div class="search">
+        <div class="search-input-wrap">
+          <input type="text" id="search-input" class="search-input" tabindex="0" placeholder="Search {{ site.title }}"
+            aria-label="Search {{ site.title }}" autocomplete="off">
+          <label for="search-input" class="search-label"><svg viewBox="0 0 24 24" class="search-icon">
+              <use xlink:href="#svg-search"></use>
+            </svg></label>
         </div>
+        <div id="search-results" class="search-results"></div>
+      </div>
       {% endif %}
       {% include header_custom.html %}
       {% if site.aux_links %}
-        <nav aria-label="Auxiliary" class="aux-nav">
-          <ul class="aux-nav-list">
-            {% for link in site.aux_links %}
-              <li class="aux-nav-list-item">
-                <a href="{{ link.last }}" class="site-button"
-                  {% if site.aux_links_new_tab %}
-                  target="_blank" rel="noopener noreferrer"
-                  {% endif %}
-                >
-                  {{ link.first }}
-                </a>
-              </li>
-            {% endfor %}
-          </ul>
-        </nav>
+      <nav aria-label="Auxiliary" class="aux-nav">
+        <ul class="aux-nav-list">
+          {% for link in site.aux_links %}
+          <li class="aux-nav-list-item">
+            <a href="{{ link.last }}" class="site-button" {% if site.aux_links_new_tab %} target="_blank"
+              rel="noopener noreferrer" {% endif %}>
+              {{ link.first }}
+            </a>
+          </li>
+          {% endfor %}
+        </ul>
+      </nav>
       {% endif %}
     </div>
     <div id="main-content-wrap" class="main-content-wrap">
       {% unless page.url == "/" %}
-        {% if page.parent %}
-          {%- for node in pages_list -%}
-            {%- if node.parent == nil -%}
-              {%- if page.parent == node.title or page.grand_parent == node.title -%}
-                {%- assign first_level_url = node.url | absolute_url -%}
-              {%- endif -%}
-              {%- if node.has_children -%}
-                {%- assign children_list = pages_list | where: "parent", node.title -%}
-                {%- for child in children_list -%}
-                  {%- if page.url == child.url or page.parent == child.title -%}
-                    {%- assign second_level_url = child.url | absolute_url -%}
-                  {%- endif -%}
-                {%- endfor -%}
-              {%- endif -%}
-            {%- endif -%}
-          {%- endfor -%}
-          <nav aria-label="Breadcrumb" class="breadcrumb-nav">
-            <ol class="breadcrumb-nav-list">
-              {% if page.grand_parent %}
-                <li class="breadcrumb-nav-list-item"><a href="{{ first_level_url }}">{{ page.grand_parent }}</a></li>
-                <li class="breadcrumb-nav-list-item"><a href="{{ second_level_url }}">{{ page.parent }}</a></li>
-              {% else %}
-                <li class="breadcrumb-nav-list-item"><a href="{{ first_level_url }}">{{ page.parent }}</a></li>
-              {% endif %}
-              <li class="breadcrumb-nav-list-item"><span>{{ page.title }}</span></li>
-            </ol>
-          </nav>
-        {% endif %}
+      {% if page.parent %}
+      {%- for node in pages_list -%}
+      {%- if node.parent == nil -%}
+      {%- if page.parent == node.title or page.grand_parent == node.title -%}
+      {%- assign first_level_url = node.url | absolute_url -%}
+      {%- endif -%}
+      {%- if node.has_children -%}
+      {%- assign children_list = pages_list | where: "parent", node.title -%}
+      {%- for child in children_list -%}
+      {%- if page.url == child.url or page.parent == child.title -%}
+      {%- assign second_level_url = child.url | absolute_url -%}
+      {%- endif -%}
+      {%- endfor -%}
+      {%- endif -%}
+      {%- endif -%}
+      {%- endfor -%}
+      <nav aria-label="Breadcrumb" class="breadcrumb-nav">
+        <ol class="breadcrumb-nav-list">
+          {% if page.grand_parent %}
+          <li class="breadcrumb-nav-list-item"><a href="{{ first_level_url }}">{{ page.grand_parent }}</a></li>
+          <li class="breadcrumb-nav-list-item"><a href="{{ second_level_url }}">{{ page.parent }}</a></li>
+          {% else %}
+          <li class="breadcrumb-nav-list-item"><a href="{{ first_level_url }}">{{ page.parent }}</a></li>
+          {% endif %}
+          <li class="breadcrumb-nav-list-item"><span>{{ page.title }}</span></li>
+        </ol>
+      </nav>
+      {% endif %}
       {% endunless %}
       <div id="main-content" class="main-content" role="main">
         {% if site.heading_anchors != false %}
-          {% include vendor/anchor_headings.html html=content beforeHeading="true" anchorBody="<svg viewBox=\"0 0 16 16\" aria-hidden=\"true\"><use xlink:href=\"#svg-link\"></use></svg>" anchorClass="anchor-heading" anchorAttrs="aria-labelledby=\"%html_id%\"" %}
+        {% include vendor/anchor_headings.html html=content beforeHeading="true" anchorBody="<svg viewBox=\"0 0 16 16\" aria-hidden=\"true\"><use xlink:href=\"#svg-link\"></use></svg>" anchorClass="anchor-heading" anchorAttrs="aria-labelledby=\"%html_id%\"" %}
         {% else %}
-          {{ content }}
+        {{ content }}
         {% endif %}
 
         {% if page.has_children == true and page.has_toc != false %}
-          <hr>
-          <h2 class="text-delta">Table of contents</h2>
-          <ul>
-            {%- assign children_list = pages_list | where: "parent", page.title | where: "grand_parent", page.parent -%}
-            {% for child in children_list %}
-              <li>
-                <a href="{{ child.url | absolute_url }}">{{ child.title }}</a>{% if child.summary %} - {{ child.summary }}{% endif %}
-              </li>
-            {% endfor %}
-          </ul>
+        <hr>
+        <h2 class="text-delta">Table of contents</h2>
+        <ul>
+          {%- assign children_list = pages_list | where: "parent", page.title | where: "grand_parent", page.parent -%}
+          {% for child in children_list %}
+          <li>
+            <a href="{{ child.url | absolute_url }}">{{ child.title }}</a>{% if child.summary %} -
+            {{ child.summary }}{% endif %}
+          </li>
+          {% endfor %}
+        </ul>
         {% endif %}
 
         {% capture footer_custom %}
-          {%- include footer_custom.html -%}
+        {%- include footer_custom.html -%}
         {% endcapture %}
         {% if footer_custom != "" or site.last_edit_timestamp or site.gh_edit_link %}
-          <hr>
-          <footer>
-            {% if site.back_to_top %}
-              <p><a href="#top" id="back-to-top">{{ site.back_to_top_text }}</a></p>
+        <hr>
+        <footer>
+          {% if site.back_to_top %}
+          <p><a href="#top" id="back-to-top">{{ site.back_to_top_text }}</a></p>
+          {% endif %}
+
+          {{ footer_custom }}
+
+          {% if site.last_edit_timestamp or site.gh_edit_link %}
+          <div class="d-flex mt-2">
+            {% if site.last_edit_timestamp and site.last_edit_time_format and page.last_modified_date %}
+            <p class="text-small text-grey-dk-000 mb-0 mr-2">
+              Page last modified: <span
+                class="d-inline-block">{{ page.last_modified_date | date: site.last_edit_time_format }}</span>.
+            </p>
             {% endif %}
-
-            {{ footer_custom }}
-
-            {% if site.last_edit_timestamp or site.gh_edit_link %}
-              <div class="d-flex mt-2">
-                {% if site.last_edit_timestamp and site.last_edit_time_format and page.last_modified_date %}
-                  <p class="text-small text-grey-dk-000 mb-0 mr-2">
-                    Page last modified: <span class="d-inline-block">{{ page.last_modified_date | date: site.last_edit_time_format }}</span>.
-                  </p>
-                {% endif %}
-                {% if
+            {% if
                   site.gh_edit_link and
                   site.gh_edit_link_text and
                   site.gh_edit_repository and
                   site.gh_edit_branch and
                   site.gh_edit_view_mode
                 %}
-                  <p class="text-small text-grey-dk-000 mb-0">
-                    <a href="{{ site.gh_edit_repository }}/{{ site.gh_edit_view_mode }}/{{ site.gh_edit_branch }}{% if site.gh_edit_source %}/{{ site.gh_edit_source }}{% endif %}/{{ page.path }}" id="edit-this-page">{{ site.gh_edit_link_text }}</a>
-                  </p>
-                {% endif %}
-              </div>
+            <p class="text-small text-grey-dk-000 mb-0">
+              <a href="{{ site.gh_edit_repository }}/{{ site.gh_edit_view_mode }}/{{ site.gh_edit_branch }}{% if site.gh_edit_source %}/{{ site.gh_edit_source }}{% endif %}/{{ page.path }}"
+                id="edit-this-page">{{ site.gh_edit_link_text }}</a>
+            </p>
             {% endif %}
-          </footer>
+          </div>
+          {% endif %}
+        </footer>
         {% endif %}
 
       </div>
     </div>
 
     {% if site.search_enabled != false %}
-      {% if site.search.button %}
-        <a href="#" id="search-button" class="search-button">
-          <svg viewBox="0 0 24 24" class="icon"><use xlink:href="#svg-search"></use></svg>
-        </a>
-      {% endif %}
+    {% if site.search.button %}
+    <a href="#" id="search-button" class="search-button">
+      <svg viewBox="0 0 24 24" class="icon">
+        <use xlink:href="#svg-search"></use>
+      </svg>
+    </a>
+    {% endif %}
 
-      <div class="search-overlay"></div>
+    <div class="search-overlay"></div>
     {% endif %}
   </div>
 </body>
+
 </html>

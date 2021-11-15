@@ -67,7 +67,7 @@
   &:focus {
     outline: 0;
 
-    + .search-label .search-icon {
+    +.search-label .search-icon {
       color: $link-color;
     }
   }
@@ -173,6 +173,8 @@
     margin-right: $sp-2;
     color: $link-color;
     flex-shrink: 0;
+    position: relative;
+    left: 3px;
   }
 
   .search-result-doc-title {
@@ -216,7 +218,7 @@
   }
 }
 
-.search-result-preview + .search-result-preview {
+.search-result-preview+.search-result-preview {
   margin-top: $sp-1;
 }
 

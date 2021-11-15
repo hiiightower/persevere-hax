@@ -1,0 +1,172 @@
+a.nav-list-link {
+  font-size: 0.75rem;
+}
+
+li.nav-list-item>a {
+  padding-left: 0 !important;
+  /* padding-right: 30px !important; */
+}
+
+svg {
+  height: 1rem;
+  width: 1rem;
+  position: relative;
+  left: 8px;
+  top: 0px;
+}
+
+.nav-list .nav-list-item .nav-list-link {
+  line-height: 1;
+  min-height: auto;
+  line-height: 1.2;
+}
+
+.side-bar {
+  width: 25vw;
+  min-width: 25vw;
+}
+
+.site-header {
+  width: 25vw;
+  padding: 0;
+  text-align: center;
+  margin: 0;
+}
+
+nav#site-nav {
+  width: 25vw;
+  padding-left: 30px;
+  padding-top: 20px;
+}
+
+
+.main {
+  margin-left: 25vw;
+  max-width: initial;
+  margin-right: 0;
+}
+
+
+div#main-content-wrap {
+  max-width: auto;
+  margin: 30px;
+}
+
+label.search-label {
+  padding-left: 1rem;
+}
+
+footer.site-footer {
+  display: none;
+}
+
+h1#accessing-elements-by-id {
+  border-bottom: 1px solid #3333333b;
+  padding-bottom: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+
+h1+p {
+  width: 100%;
+  max-width: 77%;
+}
+
+
+.side-bar {
+  width: 23vw;
+  max-width: 23vw;
+}
+
+.side-bar>div {
+  width: 100%;
+  // max-width: 23vw;
+}
+
+nav#site-nav {
+  width: 100%;
+  padding: 0;
+}
+
+a.site-title.lh-tight {
+  background-position: center;
+  background-size: 108.1px;
+}
+
+footer.site-footer {
+  display: none;
+}
+
+
+.site-logo svg {
+  height: auto;
+  width: 80%;
+}
+
+ul.nav-list {}
+
+a.nav-list-expander svg {
+  /* transform: scale(.9) !important; */
+  position: relative;
+  top: -5px;
+  background: transparent !important;
+  height: 14px;
+  width: 14px;
+}
+
+a.nav-list-expander {}
+
+.nav-list .nav-list-item .nav-list-expander:hover {
+  background: none !important;
+}
+
+li.nav-list-item.active ul.nav-list {
+  padding: 15PX;
+}
+
+
+nav#site-nav {
+  padding: 18px 25px;
+}
+
+.site-header {
+  width: 100%;
+  background: #7253ed;
+}
+
+.site-header svg path {
+  fill: white;
+}
+
+.site-header svg rect {
+  fill: white;
+}
+
+.site-header svg polygon {
+  fill: white;
+}
+
+a.site-title {
+  padding: 0;
+  text-align: center;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  position: relative;
+  justify-content: center;
+  left: -12px;
+}
+
+div#main-content h1:first-child {
+  font-size: 4.9vw !important;
+  font-weight: 800;
+  line-height: 1;
+  width: auto;
+  opacity: 1;
+  text-transform: uppercase;
+  color: #7153ed;
+  margin-right: 30%;
+  margin-top: 30px !important;
+  POSITION: RELATIVE;
+  top: 0px;
+}
